@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      VANTA.NET({
+        el: "#home",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xff4d00,
+        backgroundAlpha: 0,
+        points: 9,
+      });
+    });
+  </script>
+  <title>Loïc Abel - Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <a class="logo" href="./index.html">Loïc Abel</a>
+    </div>
+  </header>
+  <main>
+    <div id="home">
+      <div class="bg"></div>
+      <div class="container">
+        <img src="./img/moi.webp" alt="Loïc Abel" />
+        <div class="article">
+          <h1 class="logo">Hi !</h1>
+          <div class="desc">
+            My name is Loïc, also known as <b>@pseh</b> online. I am an indie
+            developer from France.
+          </div>
+          <div class="socials-container">
+            <a href="https://github.com/psehr"><span class="github"></span></a>
+            <a href="https://twitter.com/pseh_dev"><span class="twitter"></span></a>
+            <a href="https://instagram.com/loicabel"><span class="instagram"></span></a>
+            <a href="https://www.linkedin.com/in/loïc-abel/"><span class="linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        © 2022 - Icons by
+        <a target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
